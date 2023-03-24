@@ -1,0 +1,37 @@
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    height: 7.5rem;
+    width: 7.5rem;
+}
+nav ul{
+    display: flex;
+    gap: 1.9rem;
+} 
+nav ul li{
+    font-weight: var(--bold-font);
+}
+nav ul li a{
+    color: var(--olilogo);
+    --c:linear-gradient(#A3679B 0 0);
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: .3em .1em;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    transition: .3s linear, background-size .3s .2s linear;
+}
+nav ul li a:hover{
+    background-size: 40% .1em;
+    background-position: 10% 100%, 90% 100%;
+}
