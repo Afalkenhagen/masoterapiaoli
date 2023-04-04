@@ -352,12 +352,13 @@ template {
     box-sizing: border-box;
 }
 :root{
-    --olilogo: rgb(163,103,155);
-    --bg-color: #fcfcfc;
-    --bg-color2: #f7d4e0;
-    --bold-font: 600;
+    --olilogo: rgb(163, 103, 155);
+    --bg-color: rgb(252, 252, 252);
+    --bg-color2: rgb(247, 212, 224);
+    --black: rgb(16, 16, 16);
+    --font-color: rgb(47, 61, 60);
+    --bold-font: 600,;
     --transition: 0.3s;
-    --black: #101010;
 }
 html, body { 
   height: 100%;

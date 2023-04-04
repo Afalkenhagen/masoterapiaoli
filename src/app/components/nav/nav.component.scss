@@ -9,7 +9,6 @@
     padding: 0.5rem 3.5rem;
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    
     button{
         display: none;
         cursor: pointer;
@@ -37,7 +36,7 @@ nav ul li{
 }
 nav ul li a{
     color: var(--olilogo);
-    --c:linear-gradient(#A3679B 0 0);
+    --c:linear-gradient(rgb(163, 103, 155) 0 0);
     padding-bottom: .15em;
     background: var(--c), var(--c);
     background-size: .3em .1em;
@@ -49,8 +48,6 @@ nav ul li a:hover{
     background-size: 40% .1em;
     background-position: 10% 100%, 90% 100%;
 }
-
-
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -66,30 +63,10 @@ nav ul li a:hover{
         transition: 0.5s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
-
     .nav-menu-active {
         left: 0;
     }
-
     .nav-link {
         margin: 2.5rem 0;
     }
-
-    // .hamburger {
-    //     display: block;
-    //     cursor: pointer;
-    // }
-
-    // .hamburger.active .bar:nth-child(2) {
-    //     opacity: 0;
-    // }
-
-    // .hamburger.active .bar:nth-child(1) {
-    //     transform: translateY(8px) rotate(45deg);
-    // }
-
-    // .hamburger.active .bar:nth-child(3) {
-    //     transform: translateY(-8px) rotate(-45deg);
-    // }
-
 }
