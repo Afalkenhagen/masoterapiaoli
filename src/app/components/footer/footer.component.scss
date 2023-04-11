@@ -10,9 +10,15 @@
     padding:0px;
   }
   .icons {
-    color:var(--bg-color);
-    font-size:2em;
+    display: flex;
+    justify-content: center;
+    color:var(--olilogo);
+    gap: 0.5rem;
   }
-  .icons:hover {
+  svg:hover {
     color:var(--font-color);
+  }
+  a {
+    text-decoration: none;
+    color: var(--olilogo);
   }
