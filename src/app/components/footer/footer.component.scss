@@ -3,22 +3,38 @@
     padding: 1.25rem;
     text-align: center;
     margin: 2rem 0 0;
+    &-icons{
+      display: flex;
+      justify-content: center;
+      color:var(--olilogo);
+      gap: 0.5rem;
+      
+      &_svg{
+        &:hover {
+          color:var(--font-color);
+        }
+      }
+    }
+    & a{
+      text-decoration: none;
+      color: var(--olilogo);
+    }
   }
   .text {
     color:var(--olilogo);
     margin: 0px;
     padding:0px;
   }
-  .icons {
-    display: flex;
-    justify-content: center;
-    color:var(--olilogo);
-    gap: 0.5rem;
-  }
-  svg:hover {
-    color:var(--font-color);
-  }
-  a {
-    text-decoration: none;
-    color: var(--olilogo);
-  }
+  // .icons {
+  //   display: flex;
+  //   justify-content: center;
+  //   color:var(--olilogo);
+  //   gap: 0.5rem;
+  // }
+  // svg:hover {
+  //   color:var(--font-color);
+  // }
+  // a {
+  //   text-decoration: none;
+  //   color: var(--olilogo);
+  // }
