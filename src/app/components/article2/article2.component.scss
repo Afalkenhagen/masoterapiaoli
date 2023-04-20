@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    background-color: var(--bg-color);
+    &-content{
+        
+        background-color: red;
+
+        &-img{
+            border-radius: 5px;
+            
+        }
+    }
+}
