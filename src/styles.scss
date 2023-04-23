@@ -367,4 +367,8 @@ html, body {
  ul {
   list-style-type: none;
  }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  transition: 0.3s ease all;
+}
