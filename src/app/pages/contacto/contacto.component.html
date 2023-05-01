@@ -1,1 +1,39 @@
-<p>contacto works!</p>
+<!-- https://codepen.io/nickhaskell/pen/noeyRN -->
+
+<div class="container">
+    <div class="row-header">
+      <h1>CONTACTAME &nbsp;</h1>
+      <h3>Enviá tu consulta por mail</h3>
+    </div>
+    <div class="row-body">
+      <form action="https://formspree.io/f/mbjedblk" method="POST">
+        <ul>
+          <li>
+            <p class="left">
+              <label for="name">Nombre</label>
+              <input type="text" name="sender-name" placeholder="Escribe tu nombre" required>
+            </p>
+            <p class="right">
+              <label for="phone_number">Tu teléfono</label>
+              <input type="tel" name="phone_number" placeholder="Escribe tu número" />      
+            </p>
+          </li> 
+          <li>
+            <p>
+              <label for="email">Tu correo electrónico <span class="req">*</span></label>
+              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            </p>
+          </li>        
+          <li><div class="divider"></div></li>
+          <li>
+            <label for="comments">Asunto</label>
+            <textarea name="message" cols="60" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+          </li>
+          <li>
+            <input class="btn btn-submit" type="submit" value="Enviar" />
+            <small>o presiona <strong>enter</strong></small>
+          </li>
+        </ul>
+      </form>  
+    </div>
+  </div>
