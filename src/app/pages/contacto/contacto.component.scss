@@ -1,26 +1,10 @@
-
-
 // Font imports
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
-
-
 // mixin fonts
-
 @mixin roboto-book { font-family: Roboto, "Helvetica Neue", sans-serif; font-weight: 300; }
 @mixin roboto-reg { font-family: Roboto, "Helvetica Neue", sans-serif; font-weight: 400; }
 @mixin roboto-bold { font-family: Roboto, "Helvetica Neue", sans-serif; font-weight: 700; }
-
-
-// Functions
-
-@function pxtoem($target, $context){
-  @return ($target/$context)+0em;
-}
-
 //
-
 body {
   background-color: var(--bg-color);
   font-size: 100%;
@@ -61,18 +45,18 @@ h1 {
   @include roboto-book;
   display: inline-block;
   font-weight: 400;
-  font-size: pxtoem(45, 16);
+  font-size: 2.8125em;
   border-bottom: 2px solid var(--font-color);
   margin: 0 0 0.1em 0;
   padding: 0 0 0.4em 0;
 }
 h3 {
   @include roboto-reg;
-  font-size: pxtoem(20, 16);
+  font-size: 1.25em;
   margin: 1em 0 0.4em 0;
 }
 .btn {
-  font-size: pxtoem(17, 16);
+  font-size: 1.0625em;
   display: inline-block;
   padding: 0.74em 1.5em;
   margin: 1.5em 0 0;
@@ -129,7 +113,7 @@ form {
     display: block;
     margin: 0 0 0.5em 0;
     color: var(--olilogo);
-    font-size: pxtoem(16, 16);
+    font-size: 1em;
   }
   input {
     margin: 0 0 0.5em 0;
@@ -137,7 +121,7 @@ form {
     border-radius: 5px;
     padding: 6px 10px;
     color: var(--font-color);
-    font-size: pxtoem(16, 16);
+    font-size: 1em;
   }
   textarea {
     border: 1px solid var(--olilogo);
@@ -174,10 +158,10 @@ form {
    margin: 1.5em 0 0.5em; 
   }
   h1 {
-   font-size: pxtoem(36, 16); 
+   font-size: 2.25em; 
   }
   h3 {
-    font-size: pxtoem(18, 16)
+    font-size: 1.125em;
   }
   li small {
    display: none; 
