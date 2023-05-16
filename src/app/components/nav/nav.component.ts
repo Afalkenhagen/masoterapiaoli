@@ -9,6 +9,7 @@ export class NavComponent {
 
 public active : boolean = false
 
+
 constructor(){
   
 }
@@ -17,6 +18,7 @@ setActive():void{
   this.active =!this.active
   
 }
+
 
 }
 

@@ -1,3 +1,59 @@
+.nav{
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    &_logo{
+      height: 6.5rem;
+    }
+    .mat-toolbar{
+      height: 22vh;
+      background: var(--bg-color);
+    }
+    &_spacer{
+      flex: 1 1 auto;
+    }
+    &_sidenav{
+      min-height: 30vh !important;
+    }
+    svg{
+      color:var(--olilogo);
+    }
+    &_a{
+      font-size: 80%;
+      --c:linear-gradient(rgb(163, 103, 155) 0 0);
+      padding-bottom: .15em;
+      background: var(--c), var(--c);
+      background-size: .3em .1em;
+      background-position:50% 100%;
+      background-repeat: no-repeat;
+      transition: .3s linear, background-size .3s .2s linear;
+      &:hover{
+        background-size: 40% .1em;
+        background-position: 10% 100%, 90% 100%;
+      }
+    }
+    &_sidenav_content{
+      background-color: var(--bg-color);
+    }
+    h2{
+      text-align: center;
+      color: var(--font-color);
+      font-weight: lighter;
+      font-weight: 400;
+    }
+    p {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5625rem;
+      color: var(--font-color);
+    }
+    
+  }
+  .mat-mdc-button:not(:disabled), .mat-mdc-icon-button {
+    color:var(--olilogo, inherit);
+  }
+
+/* VERSION 1.0 -----------
 .nav {
     position: sticky;
     top: 0;
@@ -70,3 +126,4 @@ nav ul li a:hover{
         margin: 2.5rem 0;
     }
 }
+*/
