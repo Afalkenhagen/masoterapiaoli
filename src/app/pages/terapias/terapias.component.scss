@@ -15,6 +15,10 @@
             border-radius: 5px;
             height: auto;
             width: 50%;
+            &-banner{
+                width: 80%;
+                border-radius: 10px;
+            }
         }
         &_svg{
             color:var(--olilogo);
