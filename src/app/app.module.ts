@@ -18,6 +18,7 @@ import { TerapiasComponent } from "./pages/terapias/terapias.component";
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { TurnosComponent } from './pages/turnos/turnos.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule, 
-    MatSidenavModule
+    MatSidenavModule, NgxScrollTopModule
   ],
   providers: [],
   bootstrap: [AppComponent]

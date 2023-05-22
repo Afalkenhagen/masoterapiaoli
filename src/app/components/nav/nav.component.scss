@@ -16,9 +16,10 @@
     }
     svg{
       color:var(--olilogo);
+      margin-top: 2vh;
     }
     &_a{
-      font-size: 80%;
+      font-size: 95%;
       --c:linear-gradient(rgb(163, 103, 155) 0 0);
       padding-bottom: .15em;
       background: var(--c), var(--c);
@@ -52,7 +53,9 @@
   .mat-mdc-button:not(:disabled), .mat-mdc-icon-button {
     color:var(--olilogo, inherit);
   }
-
+  .mat-drawer-inner-container {
+    height:50%;
+  }
 /* VERSION 1.0 -----------
 .nav {
     position: sticky;
