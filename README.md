@@ -13,6 +13,7 @@ Masoterapia Oli is a source of information and publicity for the client, which e
 ## Github repository
 This is the repository link [link](https://github.com/Afalkenhagen/PortfolioDev) on Github
 ## Deploy Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a180dd9-3a6c-44c2-8807-92fa74500ef3/deploy-status)](https://app.netlify.com/sites/masoterapiaoli/deploys)
 Here is the deploy on Netlify [link](https://masoterapiaoli.netlify.app/)
 ## Tech Stack
 **Client:** Angular, Angular Material, Typescript and Sass (with some BEM methodology) 
